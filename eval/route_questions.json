@@ -1,0 +1,22 @@
+[
+  {"q": "Why did our AI spend jump in March 2026?", "route": "investigate"},
+  {"q": "What caused the payments cloud bill to rise in May?", "route": "investigate"},
+  {"q": "Is the June 2026 spike an anomaly?", "route": "investigate"},
+  {"q": "Why did marketing's Claude costs spike around 10 September?", "route": "investigate"},
+  {"q": "Our September bill is higher than August. Explain why.", "route": "investigate"},
+  {"q": "How much did support-ai spend in April 2026?", "route": "metric"},
+  {"q": "Which teams were over budget in September 2026?", "route": "metric"},
+  {"q": "Show monthly spend for data-platform over the last 6 months.", "route": "metric"},
+  {"q": "How much unallocated spend did we have in July 2026?", "route": "metric"},
+  {"q": "Top 5 services by cost in August 2026", "route": "metric"},
+  {"q": "List the 5 most expensive single charge lines in 2026.", "route": "sql"},
+  {"q": "In the real FinOps sample, which provider has the most rows?", "route": "sql"},
+  {"q": "What is the average list unit price per million output tokens for claude-sonnet-4-5?", "route": "sql"},
+  {"q": "How many Claude calls has this app made today?", "route": "sql"},
+  {"q": "What does our tagging policy require?", "route": "policy"},
+  {"q": "When does the payments Savings Plan expire?", "route": "policy"},
+  {"q": "Who must approve moving a production chatbot to a larger model?", "route": "policy"},
+  {"q": "What is the difference between EffectiveCost and BilledCost?", "route": "policy"},
+  {"q": "Did OpenAI change gpt-5-mini pricing recently?", "route": "web"},
+  {"q": "Thanks, that's helpful!", "route": "direct"}
+]

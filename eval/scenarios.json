@@ -1,0 +1,17 @@
+[
+  {"id": "E1", "question": "Why did our AI spend jump in March 2026?",
+   "expected_driver": ["mix"], "expected_segment_any": ["support-ai", "sonnet"]},
+  {"id": "E2", "question": "Why did the payments team's cloud bill go up in May 2026?",
+   "expected_driver": ["price"], "expected_segment_any": ["payments", "Elastic Compute", "EC2", "Savings Plan"]},
+  {"id": "E3", "question": "Why was our total bill so much higher in June 2026 than in May?",
+   "expected_driver": ["one_off"], "expected_segment_any": ["Support", "shared"]},
+  {"id": "E4", "question": "Why did unallocated spend rise in July 2026?",
+   "expected_driver": ["usage", "untagged"], "expected_segment_any": ["g5", "GPU", "Pioneer Nimbus", "ml-research", "unallocated"]},
+  {"id": "E5", "question": "Search's AI bill only rose a little in August 2026. What happened?",
+   "expected_driver": ["usage"], "expected_segment_any": ["search", "gpt-5-mini"]},
+  {"id": "E6", "question": "Why did data-platform's spend go up in September 2026 compared with August?",
+   "expected_driver": ["credit", "trend"], "expected_segment_any": ["data-platform", "BigQuery", "Google", "S3", "Storage"]},
+  {"id": "E7", "question": "Why did marketing's AI spend spike between 10 and 14 September 2026?",
+   "expected_driver": ["usage"], "expected_segment_any": ["marketing", "haiku"],
+   "decoy_must_not_be_proven": "campaign"}
+]

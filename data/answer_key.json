@@ -1,0 +1,83 @@
+[
+  {
+    "id": "E1",
+    "date": "2026-03-03",
+    "team": "support-ai",
+    "provider": "Anthropic",
+    "driver": "mix",
+    "locus": "claude-sonnet-4-5",
+    "truth": "support-ai switched its chatbot from claude-haiku-4-5 to claude-sonnet-4-5 on 2026-03-03; token volumes did not change, cost per token tripled",
+    "logged_in_calendar": true
+  },
+  {
+    "id": "E2",
+    "date": "2026-05-01",
+    "team": "payments",
+    "provider": "AWS",
+    "driver": "price",
+    "locus": "Amazon Elastic Compute Cloud",
+    "truth": "Savings Plan SP-PAY-2025 expired on 2026-04-30; the same EC2 usage now pays on-demand rates (+39% effective cost)",
+    "logged_in_calendar": false
+  },
+  {
+    "id": "E3",
+    "date": "2026-06-15",
+    "team": "shared",
+    "provider": "AWS",
+    "driver": "one_off",
+    "locus": "AWS Support (Business)",
+    "truth": "annual AWS Business Support prepayment of $48,000, a one-time purchase, not an anomaly",
+    "logged_in_calendar": true
+  },
+  {
+    "id": "E4",
+    "date": "2026-07-08",
+    "team": "unallocated",
+    "provider": "AWS",
+    "driver": "usage",
+    "locus": "Amazon Elastic Compute Cloud",
+    "truth": "8 untagged g5.2xlarge GPU instances ran 24h/day from 2026-07-08 to 2026-07-29 in the ml-research account (Pioneer Nimbus) with no tags",
+    "logged_in_calendar": false
+  },
+  {
+    "id": "E5",
+    "date": "2026-08-01",
+    "team": "search",
+    "provider": "OpenAI",
+    "driver": "usage",
+    "locus": "gpt-5-mini",
+    "truth": "search launched a feature on 2026-08-01 (+45% tokens) while the provider cut gpt-5-mini prices 20% the same day; net spend rose ~16%, so usage growth is masked by the price cut",
+    "logged_in_calendar": true
+  },
+  {
+    "id": "E6",
+    "date": "2026-09-01",
+    "team": "data-platform",
+    "provider": "Google Cloud",
+    "driver": "credit",
+    "locus": "BigQuery",
+    "truth": "Google Cloud startup credits ($2,400/month) ended after 2026-08-31; usage is unchanged",
+    "logged_in_calendar": false
+  },
+  {
+    "id": "E7",
+    "date": "2026-09-10",
+    "team": "marketing",
+    "provider": "Anthropic",
+    "driver": "usage",
+    "locus": "claude-haiku-4-5",
+    "truth": "a batch-job retry bug resent prompts from 2026-09-10 to 2026-09-14 (output tokens x3, input x2.2); the campaign launch on 2026-09-15 came AFTER the spike and is a decoy",
+    "logged_in_calendar": false,
+    "decoy": "autumn campaign launch on 2026-09-15"
+  },
+  {
+    "id": "T1",
+    "date": "2025-07-01",
+    "team": "data-platform",
+    "provider": "AWS",
+    "driver": "trend",
+    "locus": "Amazon Simple Storage Service",
+    "truth": "S3 storage grows ~4% every month: a steady trend, not an anomaly",
+    "logged_in_calendar": false
+  }
+]

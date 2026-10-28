@@ -1,0 +1,10 @@
+anthropic>=2.3,<3
+langgraph>=1.2,<2
+mcp>=2.3,<3
+pandas>=3.0
+numpy>=2.0
+streamlit>=1.50
+altair>=6.0
+chromadb>=1.5
+python-dotenv>=1.0
+pytest>=9.0
